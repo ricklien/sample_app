@@ -1,5 +1,6 @@
 require 'spec_helper'
 
+
 describe "Static pages" do
 
   describe "Home page" do
@@ -15,6 +16,7 @@ describe "Static pages" do
     end
   end
 
+
   describe "Help page" do
 
     it "should have the content 'Help'" do
@@ -27,6 +29,7 @@ describe "Static pages" do
       expect(page).to have_title("Ruby on Rails Tutorial Sample App | Help")
     end
   end
+
 
   describe "About page" do
 
